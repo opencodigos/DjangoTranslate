@@ -22,6 +22,19 @@
 		<h1>{% trans 'Testando Biblioteca para Tradução de Site' %}</h1>
 
 		<p>{% trans 'Para tornar um projeto Django traduzível, você deve adicionar um número mínimo de ganchos ao seu código e modelos' %}</p>
+		
+
+		<div class="row gap-2">
+	 
+			{% for post in posts %}
+			<div class="card p-3">
+				<h2>{% trans post.title %}</h2>
+				<p>{{post.city}}</p>
+				<p>{% trans post.description|truncatechars:200 %}</p>
+			</div>
+			{% endfor %}
+			
+		</div>
 
 	</div> 
  

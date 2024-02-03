@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-04 12:20-0300\n"
+"POT-Creation-Date: 2022-12-04 12:46-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,22 +17,35 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-#: .\core\settings.py:119
+
+#: .\core\settings.py:120
 msgid "Portuguese"
 msgstr ""
 
-#: .\core\settings.py:120
+#: .\core\settings.py:121
 msgid "English"
 msgstr ""
 
-#: .\myapp\templates\home.html:18
+#: .\myapp\models.py:6
+msgid "Title"
+msgstr "Title"
+
+#: .\myapp\models.py:7
+msgid "Description"
+msgstr "Description"
+
+#: .\myapp\models.py:8
+msgid "City"
+msgstr "City"
+
+#: .\myapp\templates\home.html:22
 msgid "Testando Biblioteca para Tradução de Site"
 msgstr "Testing Library for Site Translation"
 
-#: .\myapp\templates\home.html:20
+#: .\myapp\templates\home.html:24
 msgid ""
 "Para tornar um projeto Django traduzível, você deve adicionar um número "
 "mínimo de ganchos ao seu código e modelos"
 msgstr ""
-"To make a Django project translatable, you must add a number "
-"minimum hooks to your code and templates"
+"To make a Django project translatable, you must add a number minimum hooks "
+"to your code and templates"
